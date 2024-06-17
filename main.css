@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #100808;
+    padding: 10px;
+    background-color:aquamarine;
+}
+header nav ul{
+    display: flex;
+    gap: 40px;
+    font-size:20px;
+    list-style-type: none;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+article{
+    width: 30%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#livros{
+    border-bottom: 2px solid #100808;
+    padding: 10px;
+    
+}
+form input,button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+}
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 40px;
+    font-size: 30px;
+    height: 800x;
+}
+button{
+    background-color: aqua;
+    padding: 5px;
+}
+
